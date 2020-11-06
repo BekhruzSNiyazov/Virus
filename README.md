@@ -1,0 +1,1 @@
+This is just a simple virus. **Don't run it in the same directory with important files.**
